@@ -9,7 +9,9 @@ module.exports = {
         "mm" : ['"Noto Sans Myanmar"', 'sans-serif'],
       },
       colors: {
-        'text': '#15090c',
+        'title': '#15090c',
+        'subtitle': '#3a1f1a',
+        'body': '#5d3a35' ,
         'background': '#fcf8f8',
         'primary': '#c70035',
         'secondary': '#e88da5',

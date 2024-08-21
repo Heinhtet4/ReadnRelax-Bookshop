@@ -1,5 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+Myanmar:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+Myanmar:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply inline-block 
+    bg-primary hover:bg-accent 
+    text-background 
+    font-body 
+    py-2 px-4  
+    transition-colors duration-500;
+}
+.btn-rounded {
+  @apply btn rounded;
+}
+.titletext {
+  @apply font-title 
+    text-2xl text-title
+    mb-2;
+}
+.subtext{
+    @apply text-subtitle mb-1
+    text-lg;
+}
+.bodytext{
+    @apply text-body mb-1;
+}
