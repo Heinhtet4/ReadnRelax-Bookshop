@@ -15,8 +15,7 @@
 
 .titletext {
   @apply font-title 
-  text-title
-    mb-2;
+  text-title;
 }
 .subtext{
     @apply text-subtitle mb-1;
