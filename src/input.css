@@ -4,25 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
+.btn-primary {
   @apply inline-block 
     bg-primary hover:bg-accent 
     text-background 
     font-body 
-    py-2 px-4  
+    py-2 px-4 shadow
     transition-colors duration-500;
 }
-.btn-rounded {
-  @apply btn rounded;
-}
+
 .titletext {
   @apply font-title 
-    text-2xl text-title
+  text-title
     mb-2;
 }
 .subtext{
-    @apply text-subtitle mb-1
-    text-lg;
+    @apply text-subtitle mb-1;
 }
 .bodytext{
     @apply text-body mb-1;
@@ -34,4 +31,10 @@
   text-title 
   hover:text-primary 
   transition-colors duration-300
+}
+
+.my-container{
+  @apply 
+  max-w-[95%] md:max-w-[85%] lg:max-w-[80%] 
+  mx-auto
 }
