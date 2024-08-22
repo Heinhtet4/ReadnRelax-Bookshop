@@ -37,3 +37,13 @@
   max-w-[95%] md:max-w-[85%] lg:max-w-[80%] 
   mx-auto
 }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
